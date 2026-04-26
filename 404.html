@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirigiendo - Captio</title>
+  <script>
+    const path = window.location.pathname.toLowerCase();
+    let target = "/Captio-privacy/";
+
+    if (path.includes("privacy") || path.includes("privacidad")) {
+      target += "#privacy";
+    } else if (path.includes("terms") || path.includes("terminos")) {
+      target += "#terms";
+    } else if (path.includes("contact")) {
+      target += "#contact";
+    }
+
+    window.location.replace(target);
+  </script>
+</head>
+<body>
+  <p>Redirigiendo a Captio...</p>
+</body>
+</html>
