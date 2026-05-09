@@ -1,5 +1,5 @@
 const DEFAULT_LANGUAGE = "es";
-const TRANSLATIONS_URL = "assets/data/translations.json?v=20260426";
+const TRANSLATIONS_URL = "assets/data/translations.json?v=20260508";
 
 let translations = {};
 
